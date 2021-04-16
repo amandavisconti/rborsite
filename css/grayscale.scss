@@ -38,15 +38,15 @@ input[type=text] {
   border: 1px solid #DDDDDD; }
 
 input[type=text]:focus {
-  box-shadow: 0 0 5px #b5252f;
+  box-shadow: 0 0 5px #2484db;
   padding: 3px 0px 3px 3px;
   margin: 5px 1px 3px 0px;
-  border: 1px solid #b5252f; }
+  border: 1px solid #2484db; }
 
 input[type=submit] {
   border: 0;
   padding: 4px 10px 4px 10px !important;
-  background: #b5252f;
+  background: #2484db;
   color: #010101 !important;
   border-radius: 2px;
   text-transform: uppercase;
@@ -86,7 +86,7 @@ a {
   transition: all .2s ease-in-out; }
   a:hover, a:focus {
     text-decoration: none;
-    color: #8b1c24; }
+    color: #195890; }
 
 .navbar-custom {
   margin-bottom: 0;
@@ -271,16 +271,16 @@ a {
   transition: all .3s ease-in-out; }
 
 .btn-default {
-  border: 1px solid #b5252f;
-  color: #b5252f;
+  border: 1px solid #2484db;
+  color: #2484db;
   background-color: transparent; }
 
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #b5252f;
+  border: 1px solid #2484db;
   outline: 0;
   color: #000;
-  background-color: #b5252f; }
+  background-color: #2484db; }
 
 /* Added in { Personal } */
 ul.social-buttons li a {
@@ -291,14 +291,14 @@ ul.social-buttons li a {
   font-size: 20px;
   line-height: 40px;
   outline: 0;
-  color: #b5252f;
+  color: #2484db;
   background-color: #222;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   transition: all .3s; }
   ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
     color: #222;
-    background-color: #8b1c24; }
+    background-color: #195890; }
 
 footer {
   padding: 50px 0;
@@ -361,7 +361,7 @@ body {
 /* END Added in { Personal } for Typed Cursor in Header */
 .ok-btn {
   background-color: #010101;
-  color: #b5252f; }
+  color: #2484db; }
 
 .fourofour {
   border: 1px solid #010101 !important; }
