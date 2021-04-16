@@ -47,14 +47,14 @@ input[type=submit] {
   border: 0;
   padding: 4px 10px 4px 10px !important;
   background: #b5252f;
-  color: #FFFFFF !important;
+  color: #010101 !important;
   border-radius: 2px;
   text-transform: uppercase;
   -webkit-transition: background-color .2s ease-in-out;
   transition: background-color .2s ease-in-out; }
 
 input[type=submit]:focus {
-  color: #FFFFFF;
+  color: #010101;
   text-transform: uppercase;
   -webkit-transition: background-color .2s ease-in-out;
   transition: background-color .2s ease-in-out; }
@@ -93,7 +93,7 @@ a {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
   font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
-  background-color: #FFFFFF;
+  background-color: #010101;
   /* Fix height limit and scroll for small screen and many items menu */
   max-height: 100%;
   overflow-y: auto; }
