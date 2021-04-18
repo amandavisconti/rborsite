@@ -22,10 +22,6 @@ authors:
 # Header layout
 beanpile-icon: "/img/pile_of_beans.png"
 background-img: "../img/GameTitle_Reduced.png"
-  
-# Color the browser elements
-color-browser: "#010101"
-apple-status-bar-style: "black"
 
 # Web app mode (icon/title on mobile screen just like a "real" app, links to this website)
 web-app-mode: True
@@ -37,21 +33,10 @@ icon-96p: "/img/web-app/icon-96p.png"
 icon-144p: "/img/web-app/icon-144p.png"
 icon-192p: "/img/web-app/icon-192p.png"
 
-# Blog
-paginate_path: "blog/page:num/"
-paginate: 5
-email-share: True
-fb-share: True
-twitter-share: True
-reddit-share: True
-syntax-highlight: True
-
 # Social Buttons
 social:
   - title: "twitter"
     url: "https://twitter.com/RBORgames"
-  - title: "rss"
-    url: "/feed.xml"
 
 # 404 page
 404_img: "/img/teleport.gif"
