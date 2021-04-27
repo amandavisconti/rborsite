@@ -397,6 +397,12 @@ input, .email-label {
 
 .video-wrapper {
 	/* width: 1280px; */
-	max-width: 50%;
 	margin: 0px auto;
+	@media (min-width: 767px) {
+	max-width: 50%;		
+	}
+	@media (max-width: 767px) {
+	max-width: 100%;		
+	}
+
 }
