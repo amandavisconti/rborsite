@@ -392,11 +392,15 @@ input, .email-label {
 	top: 0;
 	left: 0;
 	width: 100%;
-        height: auto;
+        height: 100%;
 }
 
 .video-wrapper {
+	//These next 3 lines courtesy of https://css-tricks.com/fluid-width-video/. Explanation of why it works here: https://css-tricks.com/aspect-ratio-boxes/
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 aspect ratio*/
+	height: 0;
 	/* width: 1280px; */
-	max-width: 100%;
-	margin: 0px auto;
+	/*max-width: 100%;
+	margin: 0px auto;*/
 }
